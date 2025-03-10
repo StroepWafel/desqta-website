@@ -17,10 +17,12 @@
           <a
             href="https://wiki.droposs.org/guides/quickstart.html"
             class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
-            >Quickstart</a
+            >Quickstart &rarr;</a
           >
-          <a href="#" class="text-sm/6 font-semibold text-white"
-            >Learn more <span aria-hidden="true">→</span></a
+          <a
+            href="https://github.com/Drop-OSS/drop-app/releases"
+            class="inline-flex items-center gap-x-2 rounded-md bg-zinc-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-zinc-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+            >Download <ArrowDownTrayIcon class="size-4" /> </a
           >
         </div>
       </div>
@@ -170,7 +172,7 @@
 </style>
 
 <script setup lang="ts">
-import { UserGroupIcon } from "@heroicons/vue/24/outline";
+import { ArrowDownTrayIcon, UserGroupIcon } from "@heroicons/vue/24/outline";
 
 const imageNames = ["hzd.png", "store.png", "hl.png"];
 

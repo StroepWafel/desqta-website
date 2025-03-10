@@ -6,8 +6,6 @@
     </main>
     <Footer />
 
-    <!-- background -->
-    <div class="absolute inset-0 bg-zinc-900 -z-50" />
 
     <!-- shadows -->
     <div class="absolute w-screen h-screen -z-10">

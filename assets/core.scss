@@ -63,3 +63,7 @@ $helvetica: (
 .carousel__pagination-button--active:hover::after {
   background-color: #d4d4d8;
 }
+
+html {
+  background-color: oklch(0.21 0.006 285.885);
+}
