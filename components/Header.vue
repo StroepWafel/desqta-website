@@ -5,10 +5,10 @@
       aria-label="Global"
     >
       <div class="flex lg:flex-1">
-        <a href="#" class="-m-1.5 p-1.5">
+        <NuxtLink href="/" class="-m-1.5 p-1.5">
           <span class="sr-only">Drop</span>
           <Logo class="h-8 w-auto" />
-        </a>
+        </NuxtLink>
       </div>
       <div class="flex lg:hidden">
         <button
@@ -20,13 +20,14 @@
           <Bars3Icon class="size-6" aria-hidden="true" />
         </button>
       </div>
-      <!--
+
       <PopoverGroup class="hidden lg:flex lg:gap-x-12">
+        <!--
         <Popover>
           <PopoverButton
             class="flex items-center gap-x-1 text-sm/6 font-semibold text-zinc-100"
           >
-            Product
+            Features
             <ChevronDownIcon
               class="size-5 flex-none text-zinc-400"
               aria-hidden="true"
@@ -48,7 +49,7 @@
                 class="mx-auto grid max-w-7xl grid-cols-4 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8"
               >
                 <div
-                  v-for="item in products"
+                  v-for="item in features"
                   :key="item.name"
                   class="transition group relative rounded-lg p-6 text-sm/6 hover:bg-zinc-800"
                 >
@@ -61,51 +62,45 @@
                       aria-hidden="true"
                     />
                   </div>
-                  <a
+                  <NuxtLink
                     :href="item.href"
                     class="transition mt-6 block font-semibold text-zinc-100"
                   >
                     {{ item.name }}
                     <span class="absolute inset-0" />
-                  </a>
+                  </NuxtLink>
                   <p class="mt-1 text-zinc-400">{{ item.description }}</p>
                 </div>
               </div>
-              <div class="bg-zinc-950">
-                <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                  <div
-                    class="grid grid-cols-3 divide-x divide-zinc-100/5 border-x border-zinc-100/5"
-                  >
-                    <a
-                      v-for="item in callsToAction"
-                      :key="item.name"
-                      :href="item.href"
-                      class="transition flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-zinc-100 hover:bg-zinc-900"
-                    >
-                      <component
-                        :is="item.icon"
-                        class="size-5 flex-none text-zinc-400"
-                        aria-hidden="true"
-                      />
-                      {{ item.name }}
-                    </a>
-                  </div>
-                </div>
-              </div>
+              <div class="bg-zinc-950 h-3" />
             </PopoverPanel>
           </transition>
         </Popover>
+        -->
 
-        <a href="#" class="text-sm/6 font-semibold text-zinc-100">Features</a>
+        <NuxtLink
+          href="/"
+          class="text-sm/6 font-semibold text-zinc-100"
+          >Home</NuxtLink
+        >
+        <NuxtLink
+          href="/comparison"
+          class="text-sm/6 font-semibold text-zinc-100"
+          >Comparison</NuxtLink
+        >
+        <!--
         <a href="#" class="text-sm/6 font-semibold text-zinc-100"
           >Marketplace</a
         >
         <a href="#" class="text-sm/6 font-semibold text-zinc-100">Company</a>
+        -->
       </PopoverGroup>
-      -->
+
       <div class="hidden lg:flex" />
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="https://wiki.droposs.org/guides/quickstart.html" class="text-sm/6 font-semibold text-zinc-100"
+        <a
+          href="https://wiki.droposs.org/guides/quickstart.html"
+          class="text-sm/6 font-semibold text-zinc-100"
           >Quickstart <span aria-hidden="true">&rarr;</span></a
         >
       </div>
@@ -120,13 +115,10 @@
         class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-zinc-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-zinc-900/10"
       >
         <div class="flex items-center justify-between">
-          <a href="#" class="-m-1.5 p-1.5">
+          <NuxtLink href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
-            <Logo
-              class="h-8 w-auto"
-              alt="Drop logo"
-            />
-          </a>
+            <Logo class="h-8 w-auto" alt="Drop logo" />
+          </NuxtLink>
           <button
             type="button"
             class="-m-2.5 rounded-md p-2.5 text-zinc-400"
@@ -166,6 +158,11 @@
                 >Home</NuxtLink
               >
               <NuxtLink
+                href="/comparison"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-zinc-100 hover:bg-zinc-800"
+                >Comparison</NuxtLink
+              >
+              <NuxtLink
                 href="https://wiki.droposs.org/"
                 class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-zinc-100 hover:bg-zinc-800"
                 >Documentation</NuxtLink
@@ -203,6 +200,8 @@ import {
   ChartPieIcon,
   CursorArrowRaysIcon,
   FingerPrintIcon,
+  ServerStackIcon,
+  ShareIcon,
   SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/vue/24/outline";
@@ -212,38 +211,43 @@ import {
   PlayCircleIcon,
   RectangleGroupIcon,
 } from "@heroicons/vue/20/solid";
+import SteamIcon from "./SteamIcon.vue";
 
-const products = [
+const features = [
   {
-    name: "Analytics",
-    description: "Get a better understanding where your traffic is coming from",
-    href: "#",
-    icon: ChartPieIcon,
+    name: "Library Management",
+    description:
+      "Learn how Drop can help you manage your library, and enhance it with metadata.",
+    href: "/features/library",
+    icon: ServerStackIcon,
   },
   {
-    name: "Engagement",
-    description: "Speak directly to your customers with our engagement tool",
-    href: "#",
-    icon: CursorArrowRaysIcon,
+    name: "Sharing",
+    description:
+      "Learn how Drop allows you to share your game library with friends & family.",
+    href: "/features/sharing",
+    icon: ShareIcon,
   },
   {
-    name: "Security",
-    description: "Your customers’ data will be safe and secure",
+    name: "Steamworks",
+    description:
+      "Learn how Drop's Steamworks library can emulate Steam's features on your Drop server.",
     href: "#",
-    icon: FingerPrintIcon,
+    icon: SteamIcon,
   },
   {
     name: "Integrations",
-    description: "Your customers’ data will be safe and secure",
+    description:
+      "Learn how to integrate your other tools and software with Drop.",
     href: "#",
     icon: SquaresPlusIcon,
   },
 ];
-const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
-  { name: "View all products", href: "#", icon: RectangleGroupIcon },
-];
+
+const router = useRouter();
+router.afterEach(() => {
+  mobileMenuOpen.value = false;
+});
 
 const mobileMenuOpen = ref(false);
 </script>
