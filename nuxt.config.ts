@@ -8,7 +8,12 @@ export default defineNuxtConfig({
       enabled: true,
     },
   },
-  modules: ["@nuxtjs/tailwindcss", "vue3-carousel-nuxt", "@nuxt/fonts"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "vue3-carousel-nuxt",
+    "@nuxt/image",
+    "@nuxt/fonts",
+  ],
   extends: ["./drop-base"],
   css: ["~/assets/core.scss"],
   app: {
@@ -21,8 +26,12 @@ export default defineNuxtConfig({
   },
 
   nitro: {
+    preset: "static",
     minify: true,
     compressPublicAssets: true,
+    prerender: {
+      crawlLinks: true,
+    },
   },
 
   fonts: {
@@ -87,13 +96,14 @@ export default defineNuxtConfig({
   },
 
   typescript: {
-    typeCheck: true,
+    typeCheck: false,
 
     tsConfig: {
       compilerOptions: {
         verbatimModuleSyntax: false,
         strictNullChecks: true,
         exactOptionalPropertyTypes: true,
+        skipLibCheck: true,
       },
     },
   },

@@ -22,33 +22,52 @@
           <a
             href="https://github.com/Drop-OSS/drop-app/releases"
             class="inline-flex items-center gap-x-2 rounded-md bg-zinc-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-zinc-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
-            >Download <ArrowDownTrayIcon class="size-4" /> </a
-          >
+            >Download <ArrowDownTrayIcon class="size-4" />
+          </a>
         </div>
       </div>
       <div
         class="mt-16 rounded-md sm:mt-24 bg-white/5 shadow-2xl ring-1 ring-white/10 p-2"
       >
         <ClientOnly fallback-tag="span">
-        <VueCarousel
-          :wrapAround="true"
-          :items-to-show="1"
-          :autoplay="15 * 1000"
-          :pauseAutoplayOnHover="true"
-        >
-          <VueSlide v-for="image in images" :key="image">
-            <img class="w-full rounded-md" :src="image" />
-          </VueSlide>
+          <VueCarousel
+            :wrapAround="true"
+            :items-to-show="1"
+            :autoplay="15 * 1000"
+            :pauseAutoplayOnHover="true"
+          >
+            <VueSlide v-for="(image, i) in images" :key="i">
+              <!-- when editing this, make sure to change values in prerender thing below -->
+              <NuxtImg
+                class="w-full rounded-md"
+                :src="image"
+                quality="80"
+                format="webp"
+                :placeholder="[100, 100, 75, 5]"
+              />
+            </VueSlide>
 
-          <template #addons>
-            <VueNavigation />
-          </template>
-        </VueCarousel>
+            <template #addons>
+              <VueNavigation />
+            </template>
+          </VueCarousel>
           <template #fallback>
             <div
               class="flex flex-nowrap flex-row overflow-hidden whitespace-nowrap"
             >
               <p>Loading carousel...</p>
+            </div>
+            <!-- Invisible pre-rendering hint -->
+            <div class="hidden">
+              <NuxtImg
+                v-for="img in allImages"
+                :key="img"
+                :src="img"
+                quality="80"
+                format="webp"
+                preload
+                :placeholder="[100, 100, 75, 5]"
+              />
             </div>
           </template>
         </ClientOnly>
@@ -71,10 +90,13 @@
             class="w-full overflow-hidden rounded-lg bg-zinc-800 ring-1 ring-white/15 max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]"
           >
             <div class="squiggles relative h-80 w-full overflow-hidden">
-              <img
+              <NuxtImg
                 class="absolute rotate-[-6deg] left-[25%] w-[30rem] z-10 rounded-md"
-                src="@/assets/updates.png"
+                src="/images/updates.png"
                 alt=""
+                quality="80"
+                format="webp"
+                loading="lazy"
               />
             </div>
             <div class="p-10">
@@ -95,10 +117,13 @@
             class="overflow-hidden rounded-lg bg-zinc-800 ring-1 ring-white/15 lg:rounded-tr-[2rem]"
           >
             <div class="hexagons relative h-80 w-full overflow-hidden">
-              <img
+              <NuxtImg
                 class="absolute rotate-[-6deg] top-[20%] w-[30rem] z-10 rounded-md"
-                src="@/assets/proton.webp"
+                src="/images/proton.webp"
                 alt=""
+                quality="80"
+                format="webp"
+                loading="lazy"
               />
             </div>
             <div class="p-10">
@@ -142,7 +167,7 @@
           <div
             class="w-full overflow-hidden rounded-lg bg-zinc-800 ring-1 ring-white/15 max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]"
           >
-          <div class="bubbles relative h-80 w-full overflow-hidden">
+            <div class="bubbles relative h-80 w-full overflow-hidden">
               <P2PIconPlaceholder
                 class="text-zinc-300 absolute rotate-[0deg] left-1/2 -translate-x-1/2 top-[5%] w-[20rem] z-10 rounded-md"
                 alt=""
@@ -185,18 +210,37 @@ import { ArrowDownTrayIcon, UserGroupIcon } from "@heroicons/vue/24/outline";
 
 const imageNames = ["hzd.png", "store.png", "hl.png"];
 
+const desktopImages = computed(() =>
+  imageNames.map((e) => `/images/carousel/${e}`)
+);
+const mobileImages = computed(() =>
+  imageNames.map((e) => `/images/carousel/mobile/${e}`)
+);
+const allImages = computed(() => [
+  ...desktopImages.value,
+  ...mobileImages.value,
+]);
+
 const images = ref<string[]>([]);
 
-onMounted(() => {
+const handleResize = () => {
   const width = window.innerWidth;
   if (width <= 640) {
-    images.value = imageNames.map((e) => `/carousel/mobile/${e}`);
+    images.value = mobileImages.value;
   } else {
-    images.value = imageNames.map((e) => `/carousel/${e}`);
+    images.value = desktopImages.value;
   }
+};
+onMounted(() => {
+  handleResize();
+  window.addEventListener("resize", handleResize);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener("resize", handleResize);
 });
 
 useHead({
-  title: "Home"
-})
+  title: "Home",
+});
 </script>
