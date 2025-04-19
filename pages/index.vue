@@ -29,6 +29,7 @@
       <div
         class="mt-16 rounded-md sm:mt-24 bg-white/5 shadow-2xl ring-1 ring-white/10 p-2"
       >
+        <ClientOnly fallback-tag="span">
         <VueCarousel
           :wrapAround="true"
           :items-to-show="1"
@@ -43,6 +44,14 @@
             <VueNavigation />
           </template>
         </VueCarousel>
+          <template #fallback>
+            <div
+              class="flex flex-nowrap flex-row overflow-hidden whitespace-nowrap"
+            >
+              <p>Loading carousel...</p>
+            </div>
+          </template>
+        </ClientOnly>
       </div>
     </div>
   </div>
