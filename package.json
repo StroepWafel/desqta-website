@@ -13,6 +13,7 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.23",
     "@heroicons/vue": "^2.2.0",
+    "@nuxt/fonts": "0.11.1",
     "@nuxtjs/tailwindcss": "6.13.1",
     "nuxt": "^3.16.2",
     "vue": "latest",
@@ -24,5 +25,10 @@
     "sass-embedded": "^1.83.4",
     "typescript": "^5.8.3",
     "vue-tsc": "^2.2.8"
+  },
+  "overrides": {
+    "vue3-carousel-nuxt": {
+      "vue3-carousel": "^0.15.0"
+    }
   }
 }
