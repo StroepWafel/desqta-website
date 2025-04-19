@@ -19,4 +19,16 @@ export default defineNuxtConfig({
   carousel: {
     prefix: "Vue",
   },
+
+  typescript: {
+    typeCheck: true,
+
+    tsConfig: {
+      compilerOptions: {
+        verbatimModuleSyntax: false,
+        strictNullChecks: true,
+        exactOptionalPropertyTypes: true,
+      },
+    },
+  },
 });
