@@ -11,8 +11,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", "sans-serif"], //"San Francisco",
-        display: ["Motiva Sans", "sans-serif"], //"Arial",
+        sans: ["Inter"], //"San Francisco", "sans-serif"
+        display: ["Motiva Sans"], //"Arial","sans-serif"
       },
       colors: {
         zinc: {
