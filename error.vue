@@ -30,5 +30,14 @@
 </template>
 
 <script setup lang="ts">
-const error = useError();
+import { NuxtError } from "#app";
+
+const { error } = defineProps<{
+  error: NuxtError;
+}>();
+
+defineOgImageComponent("NuxtSeo", {
+  title: error.statusCode.toString(),
+  description: error.statusMessage,
+});
 </script>
