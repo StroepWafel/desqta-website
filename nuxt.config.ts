@@ -26,7 +26,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: "static",
+    preset: "github_pages",
     minify: true,
     compressPublicAssets: true,
     prerender: {
