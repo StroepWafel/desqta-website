@@ -17,10 +17,13 @@
     </div>
     <div class="relative overflow-hidden pt-16">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <img
-          src="@/assets/ss/admin-metadata.png"
-          alt="App screenshot" 
+        <NuxtImg
+          src="/images/ss/admin-metadata.png"
+          alt="App screenshot"
           class="rounded-xl shadow-2xl ring-1 ring-white/10"
+          quality="80"
+          format="webp"
+          preload
         />
       </div>
     </div>
@@ -50,7 +53,12 @@
 </template>
 
 <script setup lang="ts">
-import { DocumentDuplicateIcon, PencilIcon, ServerStackIcon } from "@heroicons/vue/24/outline";
+import { NuxtImg } from "#components";
+import {
+  DocumentDuplicateIcon,
+  PencilIcon,
+  ServerStackIcon,
+} from "@heroicons/vue/24/outline";
 
 const features = [
   {
@@ -74,6 +82,6 @@ const features = [
 ];
 
 useHead({
-  title: "Library"
-})
+  title: "Library",
+});
 </script>
