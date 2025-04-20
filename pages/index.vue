@@ -14,16 +14,16 @@
           creating a Steam-like experience for DRM-free games.
         </p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-          <a
+          <NuxtLink
             href="https://wiki.droposs.org/guides/quickstart.html"
             class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
-            >Quickstart &rarr;</a
+            >Quickstart &rarr;</NuxtLink
           >
-          <a
+          <NuxtLink
             href="https://github.com/Drop-OSS/drop-app/releases"
             class="inline-flex items-center gap-x-2 rounded-md bg-zinc-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-zinc-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
             >Download <ArrowDownTrayIcon class="size-4" />
-          </a>
+          </NuxtLink>
         </div>
       </div>
       <div

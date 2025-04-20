@@ -32,14 +32,14 @@
               project removed or updated.
             </p>
             <p class="mt-3 text-sm md:ml-6 md:mt-0">
-              <a
+              <NuxtLink
                 href="https://github.com/Drop-OSS/drop-website"
                 target="_blank"
                 class="whitespace-nowrap font-medium text-blue-400 hover:text-blue-500"
               >
                 GitHub
                 <span aria-hidden="true"> &rarr;</span>
-              </a>
+              </NuxtLink>
             </p>
           </div>
         </div>
