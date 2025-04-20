@@ -95,28 +95,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-const siteDesc = "The open-source, self-hosted game distribution platform";
-
-useSeoMeta({
-  description: siteDesc,
-  ogDescription: siteDesc,
-});
-useHead({
-  htmlAttrs: {
-    lang: "en",
-  },
-  link: [
-    {
-      rel: "icon",
-      type: "image/png",
-      href: "/favicon.png",
-    },
-  ],
-});
-defineOgImageComponent("DropOG", {
-  title: "Drop OSS",
-  // logo: "/favicon.png",
-});
-</script>

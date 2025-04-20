@@ -78,7 +78,9 @@
         </Popover>
         -->
 
-        <NuxtLink href="/" class="text-sm/6 font-semibold text-zinc-100"
+        <NuxtLink
+          href="/"
+          class="text-sm/6 font-semibold text-zinc-100"
           >Home</NuxtLink
         >
         <NuxtLink
@@ -96,10 +98,10 @@
 
       <div class="hidden lg:flex" />
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <NuxtLink
+        <a
           href="https://wiki.droposs.org/guides/quickstart.html"
           class="text-sm/6 font-semibold text-zinc-100"
-          >Quickstart <span aria-hidden="true">&rarr;</span></NuxtLink
+          >Quickstart <span aria-hidden="true">&rarr;</span></a
         >
       </div>
     </nav>
@@ -167,10 +169,10 @@
               >
             </div>
             <div class="py-6">
-              <NuxtLink
+              <a
                 href="https://wiki.droposs.org/guides/quickstart.html"
                 class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-zinc-100 hover:bg-zinc-800"
-                >Get started &rarr;</NuxtLink
+                >Get started &rarr;</a
               >
             </div>
           </div>
