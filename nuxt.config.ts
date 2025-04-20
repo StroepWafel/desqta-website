@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
+  site: {
+    url: "https://droposs.org/",
+    name: "Drop OSS",
+  },
   devtools: {
     enabled: true,
 
@@ -13,14 +17,10 @@ export default defineNuxtConfig({
     "vue3-carousel-nuxt",
     "@nuxt/image",
     "@nuxt/fonts",
+    "@nuxtjs/seo",
   ],
   extends: ["./drop-base"],
   css: ["~/assets/core.scss"],
-  app: {
-    head: {
-      link: [{ rel: "icon", href: "/favicon.ico" }],
-    },
-  },
   carousel: {
     prefix: "Vue",
   },
@@ -32,6 +32,10 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
     },
+  },
+
+  ogImage: {
+    zeroRuntime: true,
   },
 
   fonts: {
