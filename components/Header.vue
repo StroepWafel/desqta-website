@@ -78,20 +78,13 @@
         </Popover>
         -->
 
-        <NuxtLink href="/" class="text-sm/6 font-semibold text-zinc-100"
-          >Home</NuxtLink
-        >
         <NuxtLink
-          href="/comparison"
+          v-for="(route, i) in routes"
+          :key="i"
+          :href="route.href"
           class="text-sm/6 font-semibold text-zinc-100"
-          >Comparison</NuxtLink
+          >{{ route.name }}</NuxtLink
         >
-        <!--
-        <a href="#" class="text-sm/6 font-semibold text-zinc-100"
-          >Marketplace</a
-        >
-        <a href="#" class="text-sm/6 font-semibold text-zinc-100">Company</a>
-        -->
       </PopoverGroup>
 
       <div class="hidden lg:flex" />
@@ -151,26 +144,19 @@
                 </DisclosurePanel>
               </Disclosure>-->
               <NuxtLink
-                href="/"
+                v-for="(route, i) in routes"
+                :key="i"
+                :href="route.href"
                 class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-zinc-100 hover:bg-zinc-800"
-                >Home</NuxtLink
               >
-              <NuxtLink
-                href="/comparison"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-zinc-100 hover:bg-zinc-800"
-                >Comparison</NuxtLink
-              >
-              <NuxtLink
-                href="https://wiki.droposs.org/"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-zinc-100 hover:bg-zinc-800"
-                >Documentation</NuxtLink
-              >
+                {{ route.name }}
+              </NuxtLink>
             </div>
             <div class="py-6">
               <NuxtLink
-                href="https://wiki.droposs.org/guides/quickstart.html"
+                :href="quickstartLink"
                 class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-zinc-100 hover:bg-zinc-800"
-                >Get started &rarr;</NuxtLink
+                >Quickstart <span aria-hidden="true">&rarr;</span></NuxtLink
               >
             </div>
           </div>
@@ -210,6 +196,27 @@ import {
   RectangleGroupIcon,
 } from "@heroicons/vue/20/solid";
 import SteamIcon from "./SteamIcon.vue";
+
+const routes = [
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
+    name: "Comparison",
+    href: "/comparison",
+  },
+  // {
+  //   name: "Documentation",
+  //   href: "https://wiki.droposs.org/",
+  // },
+  {
+    name: "Download",
+    href: "/download",
+  },
+];
+
+const quickstartLink = "https://wiki.droposs.org/guides/quickstart.html";
 
 const features = [
   {

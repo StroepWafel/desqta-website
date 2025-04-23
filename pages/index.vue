@@ -20,7 +20,7 @@
             >Quickstart &rarr;</NuxtLink
           >
           <NuxtLink
-            href="https://github.com/Drop-OSS/drop-app/releases"
+            href="/download"
             class="inline-flex items-center gap-x-2 rounded-md bg-zinc-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-zinc-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
             >Download <ArrowDownTrayIcon class="size-4" />
           </NuxtLink>
