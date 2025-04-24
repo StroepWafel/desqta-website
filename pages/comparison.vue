@@ -284,8 +284,8 @@ const projects = [
       { description: "Native Windows app" },
       { description: "Share with family & friends" },
       { description: "Playtime tracking" },
-      { description: "Paid support & optional features" },
-      { description: "Paid Playnite integration" },
+      { description: "Optional paid features" },
+      { description: "Various platform integrations" },
     ],
   },
 
@@ -315,7 +315,7 @@ const sections: Array<{
     features: [
       {
         name: "Metadata fetching",
-        projects: { Drop: true, GameVault: "Only IGDB", LANCommander: false },
+        projects: { Drop: true, GameVault: true, LANCommander: false },
       },
       {
         name: "Game versioning",
@@ -373,6 +373,7 @@ const sections: Array<{
       {
         name: "ARM support",
         projects: {
+          GameVault: true,
           Drop: true,
           LANCommander: true,
         },
