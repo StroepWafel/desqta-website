@@ -425,10 +425,6 @@ const sections: Array<{
     name: "Other",
     features: [
       {
-        name: "Paid support option",
-        projects: { GameVault: true },
-      },
-      {
         name: "Cloud saves",
         projects: {
           Drop: "Coming soon",
