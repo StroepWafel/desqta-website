@@ -25,8 +25,7 @@
         </NuxtLink>
       </div>
       <p class="mt-10 text-center text-sm/6 text-zinc-400">
-        &copy; {{ new Date().getFullYear() }} Drop OSS. Licensed under GNU
-        Affero General Public License v3.0.
+        &copy; {{ new Date().getFullYear() }} DesQTA. Licensed under MIT License.
       </p>
     </div>
   </footer>
@@ -40,7 +39,7 @@ const navigation = {
   social: [
     {
       name: "GitHub",
-      href: "https://github.com/Drop-OSS/",
+      href: "https://github.com/BetterSEQTA/DesQTA/tree/develop",
       icon: defineComponent({
         render: () =>
           h("svg", { fill: "currentColor", viewBox: "0 0 24 24" }, [

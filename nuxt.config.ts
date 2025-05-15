@@ -19,7 +19,6 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxtjs/seo",
   ],
-  extends: ["./drop-base"],
   css: ["~/assets/core.scss"],
   carousel: {
     prefix: "Vue",
