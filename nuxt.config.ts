@@ -2,8 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   site: {
-    url: "https://droposs.org/",
-    name: "Drop OSS",
+    url: "https://adenmgb.github.io/",
+    name: "DesQTA - SEQTA Learn Desktop",
   },
   devtools: {
     enabled: true,
