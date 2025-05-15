@@ -126,8 +126,8 @@ import {
 } from "@heroicons/vue/24/outline";
 
 const links = {
-  linux: "",
-  windows: "https://github.com/BetterSEQTA/DesQTA/actions",
-  macos: "https://github.com/BetterSEQTA/DesQTA/actions",
+  windows: 'https://github.com/BetterSEQTA/DesQTA/actions',
+  macos: 'https://github.com/BetterSEQTA/DesQTA/actions',
+  linux: ''
 };
 </script>

@@ -12,6 +12,17 @@ export default defineNuxtConfig({
       enabled: true,
     },
   },
+  app: {
+    baseURL: '/desqta-website/',
+    head: {
+      title: 'DesQTA - SEQTA Learn Desktop',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'description', content: 'A powerful desktop application for SEQTA Learn' }
+      ]
+    }
+  },
   modules: [
     "@nuxtjs/tailwindcss",
     "vue3-carousel-nuxt",
@@ -123,4 +134,9 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  image: {
+    quality: 80,
+    format: ['webp']
+  }
 });
