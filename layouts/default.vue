@@ -97,7 +97,7 @@
 </template>
 
 <script setup lang="ts">
-const siteDesc = "A powerful desktop application for SEQTA Learn";
+const siteDesc = "The open-source, self-hosted game distribution platform";
 
 useSeoMeta({
   description: siteDesc,
@@ -111,73 +111,31 @@ useHead({
     {
       rel: "icon",
       type: "image/png",
-      href: "/desqta-website/favicon-96x96.png",
+      href: "/favicon-96x96.png",
       sizes: "96x96",
     },
     {
       rel: "icon",
       type: "image/svg+xml",
-      href: "/desqta-website/fav@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-	--primary-color: #3b82f6;
-	--background: #121212;
-	--surface: #18191c;
-	--surface-alt: #232428;
-	--text: #f3f4f6;
-	--text-muted: #a1a1aa;
-}
-
-body {
-	@apply antialiased;
-	background: var(--surface);
-	color: var(--text);
-}
-
-/* Custom Scrollbar Styles */
-::-webkit-scrollbar {
-	width: 10px;
-	height: 8px;
-	background: var(--surface-alt);
-	border-radius: 8px;
-}
-::-webkit-scrollbar-thumb {
-	background: var(--primary-color);
-	border-radius: 8px;
-	border: 2px solid var(--surface-alt);
-}
-::-webkit-scrollbar-thumb:hover {
-	background: #2563eb;
-}
-::-webkit-scrollbar-corner {
-	background: var(--surface-alt);
-}
-
-/* Firefox */
-* {
-	scrollbar-width: thin;
-	scrollbar-color: var(--primary-color) var(--surface-alt);
-} icon.svg",
+      href: "/favicon.svg",
     },
     {
       rel: "shortcut icon",
-      href: "/desqta-website/favicon.ico",
+      href: "/favicon.ico",
     },
     {
       rel: "apple-touch-icon",
       sizes: "180x180",
-      href: "/desqta-website/apple-touch-icon.png",
+      href: "/apple-touch-icon.png",
     },
     {
       rel: "manifest",
-      href: "/desqta-website/site.webmanifest",
+      href: "/site.webmanifest",
     },
   ],
 });
-defineOgImageComponent("DesQTAOG", {
-  title: "DesQTA",
+defineOgImageComponent("DropOG", {
+  title: "Drop OSS",
   // logo: "/favicon.png",
 });
 </script>
