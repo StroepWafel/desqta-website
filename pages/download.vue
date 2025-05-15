@@ -107,7 +107,7 @@
         </p>
         <div class="mt-8">
           <NuxtLink
-            href="/requirements"
+            href="#"
             class="text-sm/6 font-semibold text-zinc-100"
             >View Requirements <span aria-hidden="true">&rarr;</span></NuxtLink
           >
