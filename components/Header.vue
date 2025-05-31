@@ -6,8 +6,8 @@
     >
       <div class="flex lg:flex-1">
         <NuxtLink href="/" class="-m-1.5 p-1.5">
-          <span class="sr-only">Drop</span>
-          <Logo class="h-8 w-auto" />
+          <span class="sr-only">DesQTA</span>
+          <img src="https://raw.githubusercontent.com/BetterSEQTA/DesQTA/refs/heads/develop/static/32x32.png" alt="DesQTA logo" class="h-8 w-8" />
         </NuxtLink>
       </div>
       <div class="flex lg:hidden">
@@ -108,7 +108,7 @@
         <div class="flex items-center justify-between">
           <NuxtLink href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
-            <Logo class="h-8 w-auto" alt="Drop logo" />
+            <img src="https://raw.githubusercontent.com/BetterSEQTA/DesQTA/refs/heads/develop/static/32x32.png" alt="DesQTA logo" class="h-8 w-8" />
           </NuxtLink>
           <button
             type="button"

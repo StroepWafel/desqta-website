@@ -7,7 +7,7 @@
 <script setup lang="ts">
 useHead({
   titleTemplate(title) {
-    return title ? `${title} | Drop OSS` : "Drop OSS";
+    return title ? `${title} | DesQTA` : "DesQTA";
   },
 });
 </script>

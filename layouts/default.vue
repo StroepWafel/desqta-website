@@ -97,7 +97,7 @@
 </template>
 
 <script setup lang="ts">
-const siteDesc = "The open-source, self-hosted game distribution platform";
+const siteDesc = "A powerful desktop application for SEQTA Learn, bringing the full SEQTA experience to your computer with enhanced features and performance";
 
 useSeoMeta({
   description: siteDesc,
@@ -135,7 +135,7 @@ useHead({
   ],
 });
 defineOgImageComponent("DropOG", {
-  title: "Drop OSS",
+  title: "DesQTA",
   // logo: "/favicon.png",
 });
 </script>

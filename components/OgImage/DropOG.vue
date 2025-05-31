@@ -16,6 +16,11 @@ const {
 }>();
 
 const title = computed(() => propTitle.slice(0, 60));
+
+defineOgImageComponent("DesQTAOG", {
+  title: "DesQTA",
+  // logo: "/favicon.png",
+});
 </script>
 
 <template>
