@@ -98,9 +98,6 @@
           >
             Download Now
           </NuxtLink>
-          <NuxtLink href="/features" class="text-sm font-semibold leading-6 text-white transition-colors duration-200 hover:text-blue-400">
-            Learn more <span aria-hidden="true">→</span>
-          </NuxtLink>
         </div>
       </div>
     </div>

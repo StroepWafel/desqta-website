@@ -206,10 +206,6 @@ const routes = [
     name: "Comparison",
     href: "/comparison",
   },
-  // {
-  //   name: "Documentation",
-  //   href: "https://wiki.droposs.org/",
-  // },
   {
     name: "Download",
     href: "/download",
