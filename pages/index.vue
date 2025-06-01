@@ -87,6 +87,65 @@
       </div>
     </div>
 
+    <!-- Screenshots Section -->
+    <div class="py-24 sm:py-32 animate-fade-in delay-200">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:text-center">
+          <h2 class="text-base font-semibold leading-7 text-blue-400 animate-slide-down">Screenshots</h2>
+          <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl animate-slide-down delay-100">
+            See DesQTA in action
+          </p>
+          <p class="mt-6 text-lg leading-8 text-zinc-300 animate-fade-in delay-200">
+            Take a look at some of the key features and interfaces of DesQTA.
+          </p>
+        </div>
+        <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in">
+            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/homepage.png" alt="Homepage" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">Homepage</h3>
+              <p class="mt-2 text-zinc-300">Your personalized dashboard with upcoming assessments and notices.</p>
+            </div>
+          </div>
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-100">
+            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/assessments.png" alt="Assessments View" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">Assessments</h3>
+              <p class="mt-2 text-zinc-300">View and manage your assessments with an intuitive interface.</p>
+            </div>
+          </div>
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-200">
+            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/courses.png" alt="Courses Dashboard" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">Courses</h3>
+              <p class="mt-2 text-zinc-300">Access your courses and learning materials in one place.</p>
+            </div>
+          </div>
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-200">
+            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/dashboard.png" alt="Dashboard Overview" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">Dashboard</h3>
+              <p class="mt-2 text-zinc-300">Get a quick overview of your important information and tasks.</p>
+            </div>
+          </div>
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in">
+            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/direqt_inbox.png" alt="Direqt Messages" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">Direqt Messages</h3>
+              <p class="mt-2 text-zinc-300">Stay connected with teachers and students through the messaging system.</p>
+            </div>
+          </div>
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-100">
+            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/news.png" alt="News Feed" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">News Feed</h3>
+              <p class="mt-2 text-zinc-300">Stay updated with the latest news and announcements.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- CTA Section -->
     <div class="relative isolate mt-32 px-6 py-32 sm:mt-56 sm:py-40 lg:px-8 animate-fade-in delay-300">
       <svg class="absolute inset-0 -z-10 h-full w-full stroke-zinc-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
