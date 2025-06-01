@@ -108,7 +108,7 @@
             </div>
           </div>
           <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-100">
-            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/assessments.png" alt="Assessments View" class="w-full h-auto object-cover" />
+            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/assements.png" alt="Assessments View" class="w-full h-auto object-cover" />
             <div class="p-6">
               <h3 class="text-lg font-semibold text-white">Assessments</h3>
               <p class="mt-2 text-zinc-300">View and manage your assessments with an intuitive interface.</p>
@@ -129,7 +129,7 @@
             </div>
           </div>
           <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in">
-            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/direqt_inbox.png" alt="Direqt Messages" class="w-full h-auto object-cover" />
+            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/message_inbox.png" alt="Direqt Messages" class="w-full h-auto object-cover" />
             <div class="p-6">
               <h3 class="text-lg font-semibold text-white">Direqt Messages</h3>
               <p class="mt-2 text-zinc-300">Stay connected with teachers and students through the messaging system.</p>
