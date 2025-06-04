@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   site: {
-    url: "https://adenmgb.github.io/",
+    url: "https://desqta/betterseqta.org/",
     name: "DesQTA - SEQTA Learn Desktop",
   },
   devtools: {
@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     },
   },
   app: {
-    baseURL: '/desqta-website/',
+    baseURL: '/',
     head: {
       title: 'DesQTA - SEQTA Learn Desktop',
       meta: [
