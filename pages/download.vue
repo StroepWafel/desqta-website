@@ -23,7 +23,7 @@
           <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-zinc-300">
             <p class="flex-auto">Download the latest version for Windows 10 and above.</p>
             <p class="mt-6">
-              <a href="https://github.com/AdenMGB/desqta/releases/latest/download/DesQTA-Setup.exe" class="text-sm font-semibold leading-6 text-blue-400 transition-colors duration-200 hover:text-blue-300 focus:text-blue-200">
+              <a href="https://github.com/BetterSEQTA/DesQTA/releases/latest/download/DesQTA-Setup.exe" class="text-sm font-semibold leading-6 text-blue-400 transition-colors duration-200 hover:text-blue-300 focus:text-blue-200">
                 Download for Windows <span aria-hidden="true">→</span>
               </a>
             </p>
@@ -40,7 +40,7 @@
           <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-zinc-300">
             <p class="flex-auto">Download the latest version for macOS 10.15 and above.</p>
             <p class="mt-6">
-              <a href="https://github.com/AdenMGB/desqta/releases/latest/download/DesQTA.dmg" class="text-sm font-semibold leading-6 text-blue-400 transition-colors duration-200 hover:text-blue-300 focus:text-blue-200">
+              <a href="https://github.com/BetterSEQTA/DesQTA/releases/latest/download/DesQTA.dmg" class="text-sm font-semibold leading-6 text-blue-400 transition-colors duration-200 hover:text-blue-300 focus:text-blue-200">
                 Download for macOS <span aria-hidden="true">→</span>
               </a>
             </p>
@@ -58,7 +58,7 @@
           <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-zinc-300">
             <p class="flex-auto">Download the latest version for Linux distributions.</p>
             <p class="mt-6">
-              <a href="https://github.com/AdenMGB/desqta/releases/latest/download/DesQTA.AppImage" class="text-sm font-semibold leading-6 text-blue-400 transition-colors duration-200 hover:text-blue-300 focus:text-blue-200">
+              <a href="https://github.com/BetterSEQTA/DesQTA/releases/latest/download/DesQTA.AppImage" class="text-sm font-semibold leading-6 text-blue-400 transition-colors duration-200 hover:text-blue-300 focus:text-blue-200">
                 Download for Linux <span aria-hidden="true">→</span>
               </a>
             </p>
