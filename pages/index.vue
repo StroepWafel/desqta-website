@@ -101,45 +101,94 @@
         </div>
         <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in">
-            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/homepage.png" alt="Homepage" class="w-full h-auto object-cover" />
+            <img src="/images/pics/home.png" alt="Home Dashboard" class="w-full h-auto object-cover" />
             <div class="p-6">
-              <h3 class="text-lg font-semibold text-white">Homepage</h3>
-              <p class="mt-2 text-zinc-300">Your personalized dashboard with upcoming assessments and notices.</p>
+              <h3 class="text-lg font-semibold text-white">Home Dashboard</h3>
+              <p class="mt-2 text-zinc-300">Your personalized homepage with quick access to important information and upcoming tasks.</p>
             </div>
           </div>
           <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-100">
-            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/assements.png" alt="Assessments View" class="w-full h-auto object-cover" />
+            <img src="/images/pics/home2.png" alt="Enhanced Home View" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">Enhanced Home View</h3>
+              <p class="mt-2 text-zinc-300">Customisable home layout with comprehensive overview of your academic progress and notifications.</p>
+            </div>
+          </div>
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-200">
+            <img src="/images/pics/assement.png" alt="Assessments Management" class="w-full h-auto object-cover" />
             <div class="p-6">
               <h3 class="text-lg font-semibold text-white">Assessments</h3>
-              <p class="mt-2 text-zinc-300">View and manage your assessments with an intuitive interface.</p>
+              <p class="mt-2 text-zinc-300">Comprehensive assessment tracking with detailed information, due dates, and submission status.</p>
             </div>
           </div>
           <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-200">
-            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/courses.png" alt="Courses Dashboard" class="w-full h-auto object-cover" />
+            <img src="/images/pics/courses(1).png" alt="Course Management" class="w-full h-auto object-cover" />
             <div class="p-6">
-              <h3 class="text-lg font-semibold text-white">Courses</h3>
-              <p class="mt-2 text-zinc-300">Access your courses and learning materials in one place.</p>
-            </div>
-          </div>
-          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-200">
-            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/dashboard.png" alt="Dashboard Overview" class="w-full h-auto object-cover" />
-            <div class="p-6">
-              <h3 class="text-lg font-semibold text-white">Dashboard</h3>
-              <p class="mt-2 text-zinc-300">Get a quick overview of your important information and tasks.</p>
+              <h3 class="text-lg font-semibold text-white">Course Management</h3>
+              <p class="mt-2 text-zinc-300">Access all your courses, learning materials, and resources in an organized, easy-to-navigate interface.</p>
             </div>
           </div>
           <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in">
-            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/message_inbox.png" alt="Direqt Messages" class="w-full h-auto object-cover" />
+            <img src="/images/pics/dm (1).png" alt="Direct Messages" class="w-full h-auto object-cover" />
             <div class="p-6">
-              <h3 class="text-lg font-semibold text-white">Direqt Messages</h3>
-              <p class="mt-2 text-zinc-300">Stay connected with teachers and students through the messaging system.</p>
+              <h3 class="text-lg font-semibold text-white">Direct Messages</h3>
+              <p class="mt-2 text-zinc-300">Stay connected with teachers and classmates through the integrated messaging system with real-time notifications.</p>
             </div>
           </div>
           <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-100">
-            <img src="https://raw.githubusercontent.com/AdenMGB/desqta-website/refs/heads/main/public/images/ss/news.png" alt="News Feed" class="w-full h-auto object-cover" />
+            <img src="/images/pics/news.png" alt="News & Updates" class="w-full h-auto object-cover" />
             <div class="p-6">
-              <h3 class="text-lg font-semibold text-white">News Feed</h3>
-              <p class="mt-2 text-zinc-300">Stay updated with the latest news and announcements.</p>
+              <h3 class="text-lg font-semibold text-white">News & Updates</h3>
+              <p class="mt-2 text-zinc-300">Stay informed with the latest news and important updates from around the world in a clean, readable format.</p>
+            </div>
+          </div>
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-200">
+            <img src="/images/pics/notices.png" alt="Notices & Announcements" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">Notices & Announcements</h3>
+              <p class="mt-2 text-zinc-300">Important notices and announcements from teachers and administration, organized for easy access.</p>
+            </div>
+          </div>
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in">
+            <img src="/images/pics/timetable1(1).png" alt="Class Timetable" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">Class Timetable</h3>
+              <p class="mt-2 text-zinc-300">View your weekly schedule, class times, and room locations in an intuitive timetable interface.</p>
+            </div>
+          </div>
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-100">
+            <img src="/images/pics/grade-report.png" alt="Grade Reports" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">Grade Reports</h3>
+              <p class="mt-2 text-zinc-300">Track your academic progress with detailed grade reports and performance analytics.</p>
+            </div>
+          </div>
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-200">
+            <img src="/images/pics/reports.png" alt="Academic Reports" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">Academic Reports</h3>
+              <p class="mt-2 text-zinc-300">Comprehensive academic reports with detailed insights into your learning progress and achievements from your school.</p>
+            </div>
+          </div>
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in">
+            <img src="/images/pics/schooldirectory.png" alt="School Directory" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">School Directory</h3>
+              <p class="mt-2 text-zinc-300">Access information about your fellow students through the comprehensive school directory.</p>
+            </div>
+          </div>
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-100">
+            <img src="/images/pics/settings.png" alt="Application Settings" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">Application Settings</h3>
+              <p class="mt-2 text-zinc-300">Customize your DesQTA experience with comprehensive settings for notifications, appearance, and preferences.</p>
+            </div>
+          </div>
+          <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl overflow-hidden transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-200">
+            <img src="/images/pics/themes(1).png" alt="Theme Customization" class="w-full h-auto object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-semibold text-white">Theme Customization</h3>
+              <p class="mt-2 text-zinc-300">Personalize your interface with multiple theme options and customization settings for a comfortable viewing experience.</p>
             </div>
           </div>
         </div>
