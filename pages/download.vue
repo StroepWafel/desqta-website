@@ -15,8 +15,8 @@
         <!-- Windows Card -->
         <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl p-8 flex flex-col items-start transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in">
           <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">
-            <svg class="h-7 w-7 flex-none text-blue-400 transition-transform duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M0 0h11v11H0V0zm1 1v9h9V1H1zm12-1h11v11h-11V0zm1 1v9h9V1h-9zM0 12h11v11H0V12zm1 1v9h9v-9H1zm12-1h11v11h-11V12zm1 1v9h9v-9h-9z"/>
+            <svg class="h-7 w-7 flex-none text-blue-400 transition-transform duration-300 group-hover:scale-110" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="currentColor">
+            <path d="M7,6h15c0.552,0,1,0.448,1,1v15c0,0.552-0.448,1-1,1H7c-0.552,0-1-0.448-1-1V7	C6,6.448,6.448,6,7,6z"></path><path d="M25.042,21.958V7c0-0.552,0.448-1,1-1H41c0.552,0,1,0.448,1,1v14.958	c0,0.552-0.448,1-1,1H26.042C25.489,22.958,25.042,22.511,25.042,21.958z"></path><path d="M7,25h15c0.552,0,1,0.448,1,1v15c0,0.552-0.448,1-1,1H7c-0.552,0-1-0.448-1-1V26	C6,25.448,6.448,25,7,25z"></path><path d="M25,41V26c0-0.552,0.448-1,1-1h15c0.552,0,1,0.448,1,1v15c0,0.552-0.448,1-1,1H26	C25.448,42,25,41.552,25,41z"></path>
             </svg>
             <span class="ml-2">Windows</span>
           </dt>
