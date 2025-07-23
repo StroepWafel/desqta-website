@@ -6,8 +6,8 @@
         <div class="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl lg:pt-8">
           <div class="mt-24 sm:mt-32 lg:mt-16">
             <a href="/download" class="inline-flex space-x-6 animate-slide-down">
-              <span class="rounded-full bg-blue-500/10 px-3 py-1 text-sm font-semibold leading-6 text-blue-400 ring-1 ring-inset ring-blue-500/20">
-                Latest Release
+              <span class="rounded-full bg-orange-500/10 px-3 py-1 text-sm font-semibold leading-6 text-orange-400 ring-1 ring-inset ring-orange-500/20">
+                Pre-release
               </span>
               <span class="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-zinc-300">
                 <span>Just shipped v1.0.0</span>
