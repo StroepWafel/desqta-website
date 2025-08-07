@@ -21,7 +21,7 @@
           </thead>
           <tbody class="divide-y divide-white/10 rounded-2xl">
             <!-- Organise so features both softwares have come first -->
-            <!-- <Checkmark /> for yes, <Crossmark /> for no. -->
+            <!-- <Checkmark /> for yes, <Crossmark /> for no, <Semimark /> for somewhat -->
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Better than default SEQTA</td> <!-- Feature -->
               <td class="px-6 py-5 text-center align-middle"><Checkmark /></td> <!-- Does DesQTA have it? -->
@@ -43,7 +43,7 @@
               <td class="px-6 py-5 text-center"><Semimark /></td> <!-- Does BetterSeqta+ have it? -->
             </tr>
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Enhanched Styling editor</td> <!-- Feature -->
+              <td class="px-6 py-5 text-base text-zinc-300">Enhanced Styling editor</td> <!-- Feature -->
               <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
               <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does BetterSeqta+ have it? -->
             </tr>
