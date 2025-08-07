@@ -28,6 +28,21 @@
               <td class="px-6 py-5 text-center align-middle"><Checkmark /></td>
             </tr>
             <tr>
+              <td class="px-6 py-5 text-base text-zinc-300">Grades calculator</td>
+              <td class="px-6 py-5 text-center align-middle"><Checkmark /></td>
+              <td class="px-6 py-5 text-center align-middle"><Checkmark /></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-5 text-base text-zinc-300">Global search</td>
+              <td class="px-6 py-5 text-center align-middle"><Checkmark /></td>
+              <td class="px-6 py-5 text-center align-middle"><Checkmark /></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-5 text-base text-zinc-300">Custom home page</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Semimark /></td>
+            </tr>
+            <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Modern, responsive interface</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
               <td class="px-6 py-5 text-center"><Semimark /></td>
@@ -84,6 +99,21 @@
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">AI integration & features</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-5 text-base text-zinc-300">To Do list</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-5 text-base text-zinc-300">Focus timer</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-5 text-base text-zinc-300">Student directory</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
