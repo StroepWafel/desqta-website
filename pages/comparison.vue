@@ -63,11 +63,6 @@
               <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does BetterSeqta+ have it? -->
             </tr>
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Performant and Fast</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does BetterSeqta+ have it? -->
-            </tr>
-            <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Browser-dependent performance</td> <!-- Feature -->
               <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does DesQTA have it? -->
               <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does BetterSeqta+ have it? -->
