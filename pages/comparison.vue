@@ -20,52 +20,72 @@
             </tr>
           </thead>
           <tbody class="divide-y divide-white/10 rounded-2xl">
-            <!-- Organise so features both softwares have come first -->
+            <!-- Organise so features both software have come first -->
             <!-- <Checkmark /> for yes, <Crossmark /> for no, <Semimark /> for somewhat -->
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Better than default SEQTA</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center align-middle"><Checkmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center align-middle"><Checkmark /></td> <!-- Does BetterSeqta+ have it? -->
+              <td class="px-6 py-5 text-base text-zinc-300">Better than default SEQTA</td>
+              <td class="px-6 py-5 text-center align-middle"><Checkmark /></td>
+              <td class="px-6 py-5 text-center align-middle"><Checkmark /></td>
             </tr>
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Local Application</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does BetterSeqta+ have it? -->
+              <td class="px-6 py-5 text-base text-zinc-300">Modern, responsive interface</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Semimark /></td>
             </tr>
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Works offline</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does BetterSeqta+ have it? -->
+              <td class="px-6 py-5 text-base text-zinc-300">Local notifications</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Semimark /></td>
             </tr>
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Local Notifications</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center"><Semimark /></td> <!-- Does BetterSeqta+ have it? -->
+              <td class="px-6 py-5 text-base text-zinc-300">Local application</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Enhanced Styling editor</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does BetterSeqta+ have it? -->
+              <td class="px-6 py-5 text-base text-zinc-300">Works whilst offline</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Modern, responsive interface</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does BetterSeqta+ have it? -->
+              <td class="px-6 py-5 text-base text-zinc-300">Enhanced styling editor</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Optimized performance</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does BetterSeqta+ have it? -->
+              <td class="px-6 py-5 text-base text-zinc-300">Optimised performance</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Full system integration</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does BetterSeqta+ have it? -->
+              <td class="px-6 py-5 text-base text-zinc-300">Full system integration</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Browser-dependent performance</td> <!-- Feature -->
-              <td class="px-6 py-5 text-center"><Crossmark /></td> <!-- Does DesQTA have it? -->
-              <td class="px-6 py-5 text-center"><Checkmark /></td> <!-- Does BetterSeqta+ have it? -->
+              <td class="px-6 py-5 text-base text-zinc-300">Browser independent</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-5 text-base text-zinc-300">RSS news feeds</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-5 text-base text-zinc-300">Cloud-based messaging</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-5 text-base text-zinc-300">Cloud settings sync</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
+            </tr>
+            <tr>
+              <td class="px-6 py-5 text-base text-zinc-300">AI integration & features</td>
+              <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
           </tbody>
         </table>
