@@ -2,7 +2,7 @@
   <div class="relative isolate overflow-hidden">
     <div class="mx-auto max-w-5xl px-6 py-24 sm:py-32 lg:px-8 animate-fade-in">
       <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-base font-semibold leading-7 text-blue-400 animate-slide-down">Feature Checkmark Comparison</h2>
+        <h2 class="text-base font-semibold leading-7 text-blue-400 animate-slide-down">Feature Comparison</h2>
         <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl animate-slide-down delay-100">
           DesQTA vs Web Version
         </p>
@@ -73,7 +73,7 @@
       <div class="mx-auto mt-32 max-w-2xl text-center animate-fade-in delay-400">
         <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl animate-slide-down">Ready to try DesQTA?</h2>
         <p class="mt-6 text-lg leading-8 text-zinc-300 animate-fade-in delay-100">
-          Download DesQTA today and experience the difference.
+          Download DesQTA today and see the difference for yourself.
         </p>
         <div class="mt-10 flex items-center justify-center gap-x-6 animate-fade-in delay-200">
           <NuxtLink
