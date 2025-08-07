@@ -11,7 +11,7 @@
         </p>
       </div>
       <div class="mt-16 overflow-x-auto">
-        <table class="w-full text-left rounded-2xl border border-white/10 bg-white/5 shadow-xl">
+        <table class="w-full text-left rounded-2xl bg-white/5 shadow-xl">
           <thead>
             <tr>
               <th class="px-6 py-4 text-lg font-semibold text-white">Feature</th>
