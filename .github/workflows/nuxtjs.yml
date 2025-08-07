@@ -5,7 +5,6 @@ on:
   push:
     branches:
       - main
-      - comparison-to-table
 jobs:
   build:
     runs-on: ubuntu-latest
