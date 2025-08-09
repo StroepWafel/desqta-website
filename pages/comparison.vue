@@ -139,32 +139,76 @@
 </template>
 
 <script setup lang="ts">
+import { h } from 'vue'
+
 // Simple checkmark and crossmark SVG components
 const Checkmark = defineComponent({
   name: 'Checkmark',
-  template: `
-    <svg fill="#fff" width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="mx-auto">
-      <path d="M16,.5C7.44.5.5,7.44.5,16s6.94,15.5,15.5,15.5,15.5-6.94,15.5-15.5S24.56.5,16,.5Z"/>
-    </svg>
-  `
+  setup() {
+    return () =>
+      h(
+        'svg',
+        {
+          fill: '#fff',
+          width: '24',
+          height: '24',
+          viewBox: '0 0 32 32',
+          xmlns: 'http://www.w3.org/2000/svg',
+          class: 'mx-auto',
+        },
+        [
+          h('path', {
+            d: 'M16,.5C7.44.5.5,7.44.5,16s6.94,15.5,15.5,15.5,15.5-6.94,15.5-15.5S24.56.5,16,.5Z',
+          }),
+        ]
+      )
+  },
 })
 
 const Crossmark = defineComponent({
   name: 'Crossmark',
-  template: `
-    <svg fill="#e6e7e8" width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="mx-auto">
-      <path d="M16,.5C7.44.5.5,7.44.5,16s6.94,15.5,15.5,15.5,15.5-6.94,15.5-15.5S24.56.5,16,.5ZM16,30.5c-8.01,0-14.5-6.49-14.5-14.5S7.99,1.5,16,1.5s14.5,6.49,14.5,14.5-6.49,14.5-14.5,14.5Z"></path>
-    </svg>
-  `
+  setup() {
+    return () =>
+      h(
+        'svg',
+        {
+          fill: '#e6e7e8',
+          width: '24',
+          height: '24',
+          viewBox: '0 0 32 32',
+          xmlns: 'http://www.w3.org/2000/svg',
+          class: 'mx-auto',
+        },
+        [
+          h('path', {
+            d: 'M16,.5C7.44.5.5,7.44.5,16s6.94,15.5,15.5,15.5,15.5-6.94,15.5-15.5S24.56.5,16,.5ZM16,30.5c-8.01,0-14.5-6.49-14.5-14.5S7.99,1.5,16,1.5s14.5,6.49,14.5,14.5-6.49,14.5-14.5,14.5Z',
+          }),
+        ]
+      )
+  },
 })
 
 const Semimark = defineComponent({
   name: 'Semimark',
-  template: `
-    <svg fill="#f1f2f2" width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="mx-auto">
-      <path d="M16,.5C7.44.5.5,7.44.5,16s6.94,15.5,15.5,15.5,15.5-6.94,15.5-15.5S24.56.5,16,.5ZM16,1.5c8.01,0,14.5,6.49,14.5,14.5s-6.49,14.5-14.5,14.5"/>
-    </svg>
-  `
+  setup() {
+    return () =>
+      h(
+        'svg',
+        {
+          fill: '#f1f2f2',
+          width: '24',
+          height: '24',
+          viewBox: '0 0 32 32',
+          xmlns: 'http://www.w3.org/2000/svg',
+          class: 'mx-auto',
+        },
+        [
+          h('path', {
+            d: 'M16,.5C7.44.5.5,7.44.5,16s6.94,15.5,15.5,15.5,15.5-6.94,15.5-15.5S24.56.5,16,.5ZM16,1.5c8.01,0,14.5,6.49,14.5,14.5s-6.49,14.5-14.5,14.5',
+          }),
+        ]
+      )
+  },
 })
 
 useHead({
