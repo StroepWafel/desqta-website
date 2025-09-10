@@ -11,7 +11,7 @@
         </p>
       </div>
 
-      <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <!-- Windows Card -->
         <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl p-8 flex flex-col items-start transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in">
           <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">
@@ -23,7 +23,7 @@
           <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-zinc-300">
             <p class="flex-auto">Download the latest version for Windows 10 and above.</p>
             <p class="mt-6">
-              <a href="https://github.com/BetterSEQTA/DesQTA/releases/download/v1.0.0-rc1/DesQTA_0.1.0_x64-setup.exe" class="text-sm font-semibold leading-6 text-blue-400 transition-colors duration-200 hover:text-blue-300 focus:text-blue-200">
+              <a href="https://github.com/BetterSEQTA/DesQTA/releases/download/v1.0.0rc-2/DesQTA_1.0.0-2_x64-setup.exe" class="text-sm font-semibold leading-6 text-blue-400 transition-colors duration-200 hover:text-blue-300 focus:text-blue-200">
                 Download for Windows <span aria-hidden="true">→</span>
               </a>
             </p>
@@ -40,7 +40,7 @@
           <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-zinc-300">
             <p class="flex-auto">Download the latest version for macOS 10.15 and above.</p>
             <p class="mt-6">
-              <a href="https://github.com/BetterSEQTA/DesQTA/releases/download/v1.0.0-rc1/DesQTA_0.1.0_aarch64.dmg" class="text-sm font-semibold leading-6 text-blue-400 transition-colors duration-200 hover:text-blue-300 focus:text-blue-200">
+              <a href="https://github.com/BetterSEQTA/DesQTA/releases/download/v1.0.0rc-2/DesQTA_1.0.0-2_aarch64.dmg" class="text-sm font-semibold leading-6 text-blue-400 transition-colors duration-200 hover:text-blue-300 focus:text-blue-200">
                 Download for macOS <span aria-hidden="true">→</span>
               </a>
             </p>
@@ -64,10 +64,27 @@
             </p>
           </dd>
         </div>
+        <!-- Android Card -->
+        <div class="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl shadow-xl p-8 flex flex-col items-start transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl animate-fade-in delay-300">
+          <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">
+            <svg class="h-7 w-7 flex-none text-blue-400 transition-transform duration-300 group-hover:scale-110" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.523 15.3414c-.5665 0-.9414-.4749-.9414-1.0414s.3749-1.0414.9414-1.0414.9414.4749.9414 1.0414-.3749 1.0414-.9414 1.0414zm-11.046 0c-.5665 0-.9414-.4749-.9414-1.0414s.3749-1.0414.9414-1.0414.9414.4749.9414 1.0414-.3749 1.0414-.9414 1.0414zm11.405-6.34l1.0515-1.9003c.1628-.2938.0589-.6673-.2349-.8301-.2938-.1628-.6673-.0589-.8301.2349L16.8732 8.4103c-1.2513-.5729-2.7665-.9414-4.3732-.9414s-3.1219.3685-4.3732.9414L7.1005 6.4659c-.1628-.2938-.5363-.3977-.8301-.2349-.2938.1628-.3977.5363-.2349.8301L6.9871 8.9614C5.1108 10.0847 3.9795 11.9498 3.9795 14.041h16.041c0-2.0912-1.1313-3.9563-3.0076-5.0796z"/>
+            </svg>
+            <span class="ml-2">Android</span>
+          </dt>
+          <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-zinc-300">
+            <p class="flex-auto">Download the mobile version for Android devices.</p>
+            <p class="mt-6">
+              <a href="https://github.com/BetterSEQTA/DesQTA/releases/download/v1.0.0rc-2/DesQTA.apk" class="text-sm font-semibold leading-6 text-blue-400 transition-colors duration-200 hover:text-blue-300 focus:text-blue-200">
+                 <span aria-hidden="true">Download for Android →</span>
+              </a>
+            </p>
+          </dd>
+        </div>
       </div>
 
       <!-- System Requirements -->
-      <div class="mx-auto mt-32 max-w-2xl sm:mt-40 lg:mt-48 lg:max-w-none animate-fade-in delay-300">
+      <div class="mx-auto mt-32 max-w-2xl sm:mt-40 lg:mt-48 lg:max-w-none animate-fade-in delay-400">
         <div class="mx-auto max-w-2xl lg:text-center">
           <h2 class="text-base font-semibold leading-7 text-blue-400">System Requirements</h2>
           <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -75,7 +92,7 @@
           </p>
         </div>
         <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-          <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+          <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 xl:grid-cols-4">
             <div class="flex flex-col">
               <dt class="text-base font-semibold leading-7 text-white">Windows</dt>
               <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-zinc-300">
@@ -98,12 +115,34 @@
                 </ul>
               </dd>
             </div>
+            <div class="flex flex-col">
+              <dt class="text-base font-semibold leading-7 text-white">Linux</dt>
+              <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-zinc-300">
+                <ul class="list-disc pl-6 space-y-3">
+                  <li>Ubuntu 18.04+ or equivalent</li>
+                  <li>4GB RAM minimum</li>
+                  <li>500MB free disk space</li>
+                  <li>Internet connection</li>
+                </ul>
+              </dd>
+            </div>
+            <div class="flex flex-col">
+              <dt class="text-base font-semibold leading-7 text-white">Android</dt>
+              <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-zinc-300">
+                <ul class="list-disc pl-6 space-y-3">
+                  <li>Android 7.0+ (API 24)</li>
+                  <li>2GB RAM minimum</li>
+                  <li>200MB free storage</li>
+                  <li>Internet connection</li>
+                </ul>
+              </dd>
+            </div>
           </dl>
         </div>
       </div>
 
       <!-- Installation Guide -->
-      <div class="mx-auto mt-32 max-w-2xl sm:mt-40 lg:mt-48 lg:max-w-none animate-fade-in delay-400">
+      <div class="mx-auto mt-32 max-w-2xl sm:mt-40 lg:mt-48 lg:max-w-none animate-fade-in delay-500">
         <div class="mx-auto max-w-2xl lg:text-center">
           <h2 class="text-base font-semibold leading-7 text-blue-400">Installation Guide</h2>
           <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -111,7 +150,7 @@
           </p>
         </div>
         <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-          <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+          <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 xl:grid-cols-4">
             <div class="flex flex-col">
               <dt class="text-base font-semibold leading-7 text-white">Windows</dt>
               <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-zinc-300">
@@ -142,6 +181,17 @@
                   <li>Make it executable: chmod +x DesQTA.AppImage</li>
                   <li>Run the AppImage</li>
                   <li>Optional: Move to /usr/local/bin</li>
+                </ol>
+              </dd>
+            </div>
+            <div class="flex flex-col">
+              <dt class="text-base font-semibold leading-7 text-white">Android</dt>
+              <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-zinc-300">
+                <ol class="list-decimal pl-6 space-y-3">
+                  <li>Download the .apk file</li>
+                  <li>Enable "Install from Unknown Sources"</li>
+                  <li>Install the APK</li>
+                  <li>Launch DesQTA from app drawer</li>
                 </ol>
               </dd>
             </div>
