@@ -40,6 +40,15 @@
             </NuxtLink>
           </div>
         </div>
+        <div class="mx-auto mt-16 flex max-w-4xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-xl lg:flex-none xl:ml-32">
+          <div class="max-w-4xl flex-none animate-fade-in delay-400">
+            <img
+              src="/images/pics/DesQTA Web.png"
+              alt="DesQTA Desktop Application Screenshot"
+              class="w-full rounded-2xl shadow-2xl ring-1 ring-white/10 transition-transform duration-300 hover:scale-[1.02]"
+            />
+          </div>
+        </div>
       </div>
     </div>
 
@@ -260,4 +269,5 @@ useHead({
 .delay-100 { animation-delay: 0.1s; }
 .delay-200 { animation-delay: 0.2s; }
 .delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
 </style>
