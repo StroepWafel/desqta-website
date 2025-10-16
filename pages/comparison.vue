@@ -4,10 +4,10 @@
       <div class="mx-auto max-w-2xl text-center">
         <h2 class="text-base font-semibold leading-7 text-blue-400 animate-slide-down">Feature Comparison</h2>
         <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl animate-slide-down delay-100">
-          DesQTA vs Web Version
+          DesQTA vs BS+ vs SEQTA
         </p>
         <p class="mt-6 text-lg leading-8 text-zinc-300 animate-fade-in delay-200">
-          See how DesQTA stacks up against the web version of SEQTA Learn.
+          See how DesQTA stacks up against the web version of BetterSeqta+ and SEQTA Learn.
         </p>
       </div>
       <div class="mt-16 overflow-x-auto">
@@ -16,16 +16,18 @@
             <tr>
               <th class="px-6 py-4 text-lg font-semibold text-white">Feature</th>
               <th class="px-6 py-4 text-lg font-semibold text-blue-400 text-center">DesQTA</th>
-              <th class="px-6 py-4 text-lg font-semibold text-zinc-300 text-center">Web Version</th>
+              <th class="px-6 py-4 text-lg font-semibold text-zinc-300 text-center">BS+</th>
+              <th class="px-6 py-4 text-lg font-semibold text-zinc-300 text-center">SEQTA Learn</th>
             </tr>
           </thead>
           <tbody class="divide-y divide-white/10 rounded-2xl">
             <!-- Organise so features both software have come first -->
             <!-- <Checkmark /> for yes, <Crossmark /> for no, <Semimark /> for somewhat -->
             <tr>
-              <td class="px-6 py-5 text-base text-zinc-300">Better than default SEQTA</td>
+              <td class="px-6 py-5 text-base text-zinc-300">Functional</td>
               <td class="px-6 py-5 text-center align-middle"><Checkmark /></td>
               <td class="px-6 py-5 text-center align-middle"><Checkmark /></td>
+              <td class="px-6 py-5 text-center align-middle"><Semimark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Grades calculator</td>
@@ -41,80 +43,97 @@
               <td class="px-6 py-5 text-base text-zinc-300">Custom home page</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
               <td class="px-6 py-5 text-center"><Semimark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
+
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Modern, responsive interface</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
               <td class="px-6 py-5 text-center"><Semimark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Local notifications</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
               <td class="px-6 py-5 text-center"><Semimark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Local application</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Works whilst offline</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Enhanced styling editor</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Optimised performance</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Full system integration</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Browser independent</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">RSS news feeds</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Cloud-based messaging</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Cloud settings sync</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">AI integration & features</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">To Do list</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Focus timer</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Student directory</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
           </tbody>
