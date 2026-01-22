@@ -16,7 +16,7 @@
             <tr>
               <th class="px-6 py-4 text-lg font-semibold text-white">Feature</th>
               <th class="px-6 py-4 text-lg font-semibold text-blue-400 text-center">DesQTA</th>
-              <th class="px-6 py-4 text-lg font-semibold text-zinc-300 text-center">BS+</th>
+              <th class="px-6 py-4 text-lg font-semibold text-zinc-350 text-center">BS+</th>
               <th class="px-6 py-4 text-lg font-semibold text-zinc-300 text-center">SEQTA Learn</th>
             </tr>
           </thead>
@@ -33,18 +33,19 @@
               <td class="px-6 py-5 text-base text-zinc-300">Grades calculator</td>
               <td class="px-6 py-5 text-center align-middle"><Checkmark /></td>
               <td class="px-6 py-5 text-center align-middle"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Global search</td>
               <td class="px-6 py-5 text-center align-middle"><Checkmark /></td>
               <td class="px-6 py-5 text-center align-middle"><Checkmark /></td>
+              <td class="px-6 py-5 text-center"><Crossmark /></td>
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Custom home page</td>
               <td class="px-6 py-5 text-center"><Checkmark /></td>
               <td class="px-6 py-5 text-center"><Semimark /></td>
               <td class="px-6 py-5 text-center"><Crossmark /></td>
-
             </tr>
             <tr>
               <td class="px-6 py-5 text-base text-zinc-300">Modern, responsive interface</td>
